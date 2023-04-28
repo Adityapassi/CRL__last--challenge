@@ -136,6 +136,7 @@ header .d-flex{
 }
 
 .features .feature h2{
+    font-size: 1.5rem;
     margin-bottom: 1.8rem;
 }
 
@@ -173,6 +174,7 @@ header .d-flex{
 }
 
 .main__aside .aside__card h2{
+    font-size: 1.5rem;
     margin-bottom: 0.7rem;
 }
 
@@ -214,7 +216,7 @@ footer .d-flex{
 
 @media (max-width: 700px){
     body{
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .hero__title {
@@ -222,11 +224,11 @@ footer .d-flex{
     }
 
     .hero__content p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .hero__content .btn {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 
     .main .d-flex {
@@ -321,10 +323,14 @@ footer .d-flex{
         margin-left: 0rem;
     }
 
+    .col h3 {
+       font-size: 1.3rem;
+    }
+
     footer h1 {
         letter-spacing: normal;
         text-align: center;
-        margin-bottom: 0.6rem;
+        margin-bottom: 1rem;
         font-size: 1.4rem;
     }
 
